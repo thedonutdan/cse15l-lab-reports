@@ -20,6 +20,19 @@ command will result in an error as it cannot find the specified directory.
 **cd with a file as an argument**  
 Output:  
 ```
-
+[user@sahara ~/lecture1]$ ls
+Hello.class  Hello.java  messages  README
+[user@sahara ~/lecture1]$ cd Hello.java
+bash: cd: Hello.java: Not a directory
 ```
-Here we can see that using a filename as an argument for the cd command results in an error.
+Here we can see that using a filename as an argument for the cd command results in an error as cd will
+only accept directories as arguments.  
+
+**cd with no arguments**  
+Output:  
+```
+[user@sahara ~/lecture1/messages]$ cd
+[user@sahara ~]$ 
+```
+Here we can see cd returning the working directory to the home directory when no arguments are provided.  
+
