@@ -1,3 +1,3 @@
-**Lab Reports by Daniel Andrews** \n
-CSE 15L \n
-Lab 1 \n
+**Lab Reports by Daniel Andrews**  
+CSE 15L  
+Lab 1 
