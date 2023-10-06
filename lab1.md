@@ -23,7 +23,7 @@ Hello.class  Hello.java  messages  README
 [user@sahara ~/lecture1]$ cd Hello.java
 bash: cd: Hello.java: Not a directory
 ```
-Here we can see that using a filename as an argument for the cd command results in an error as cd will
+Here we can see that using a filename as an argument for the cd command results in an error as `cd` will
 only accept directories as arguments.  
 
 **`cd` with no arguments**  
@@ -71,7 +71,7 @@ Output:
 [user@sahara ~/lecture1]$ cat messages
 cat: messages: Is a directory
 ```
-Here we can see that `cat` informs us that our target is a directory.  
+Here we can see that `cat` informs us that our target is a directory. It appears that this is not an error, but rather the command simply informs us what our target is, as a directory it has no text to print to the console. 
 
 **`cat` with a filename as an argument**  
 Output:  
@@ -105,6 +105,3 @@ hello cat
 [user@sahara ~/lecture1]$ ^C
 ```
 Here we can see that if `cat` is provided no arguments it effectively functions like an `echo` command, reprinting whatever is entered into the command line.  
-
-
-
