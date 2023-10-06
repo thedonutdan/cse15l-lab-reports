@@ -3,6 +3,7 @@
 First command: `cd`  
 We will run the `cd` command three times. First with a directory as an argument, second with a file as an argument, and
 third with no argument.  
+
 **`cd` with a directory as an argument**
 
 Output:  
