@@ -1,9 +1,10 @@
 # Lab 1 - File Systems
 
-First command: `cd` 
+First command: `cd`  
 We will run the `cd` command three times. First with a directory as an argument, second with a file as an argument, and
 third with no argument.  
 **`cd` with a directory as an argument**
+
 Output:  
 ```
 [user@sahara ~]$ cd lecture1
@@ -56,6 +57,7 @@ Hello.java
 Here we can see that when we give `ls` a valid filename as an argument the command will return the name of the file.  
 
 **`ls` with no arguments**  
+Output:  
 ```
 [user@sahara ~/lecture1]$ ls
 Hello.class  Hello.java  messages  README
