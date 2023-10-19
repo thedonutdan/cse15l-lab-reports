@@ -46,9 +46,13 @@ class StringServer {
 Here is the server output in the browser:  
 ![image1](https://thedonutdan.github.io/cse15l-lab-reports/2023-10-19.png)  
 Here is a breakdown of the methods which are called in this screenshot and their relevant arguments and fields:  
-The first method which is called is the `main` method in the `StringServer` class. The only parameter is an array of `String`s which, in thise case, contains the port number `42069`. This opens a port on the local machine where we can access the server.  
+The first method, which is called when we start the server, is the `main` method in the `StringServer` class. The only parameter is an array of `String`s which, in thise case, contains the port number `42069`. This opens a port on the local machine where we can access the server.  
 Next, `Server`'s `start` method is called with the port number, `42069`, and a new `Handler` class as the arguments. This starts the server and informs it that it should be listening to port `42069`.     
-The `Handler` class is important as it is how the program handles requests sent to the port. The relevant fields in `Handler` are `String content` and `int linenum` which keep track of the string displayed on the page and the line numbers, respectively. Upon receiving a request, `handleRequest` is called which will check the validity of the request and handle it accordingly. If the path is correctly entered, `handleRequest` will increment the line number, retrieve the string to be concatenated onto our `content` string, and display the string to the page. If there is no path entered `handleRequest` will simply display the string.  
-In this case, `handleRequest` changed `linenum` by adding one to it and also concatenated the string `This is how we add a line` to the `content` string.
+The `Handler` class is important as it is how the program handles requests sent to the port. The relevant fields in `Handler` are `String content` and `int linenum` which keep track of the string displayed on the page and the line numbers, respectively. Upon receiving a request, `handleRequest` is called which will check the validity of the request and handle it accordingly based on the `URL` provided as an argument. In this case it is `http://localhost:42069/add-message?s=This%20is%20how%20we%20add%20a%20line%20`. If the path is correctly entered, `handleRequest` will increment the line number, retrieve the string to be concatenated onto our `content` string, and display the string to the page. If there is no path entered `handleRequest` will simply display the string.  
+In this case, `handleRequest` changed `linenum` by adding one to it and also concatenated the string `This is how we add a line` to the `content` string.  
+
+
 ![image2](https://thedonutdan.github.io/cse15l-lab-reports/2023-10-19 (1).png)  
+Since the server is already running in this screenshot the only relevant class and method is the `Handler` class containing the `handleRequest` method. The fields `content` and `linenum` have since been updated to contain the lines `2. The next entry will be added on a new line` and `3. So cool!`. The `URL` passed as an argument to `handleRequest` is `http://localhost:42069/add-message?s=So%20cool!` which increments `linenum` and concatenates `So cool!` to the `content` string.
+
 
