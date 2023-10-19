@@ -9,13 +9,9 @@ third with no argument.
 Output:  
 ```
 [user@sahara ~]$ cd lecture1
-[user@sahara ~/lecture1]$ cd ..
-[user@sahara ~]$ cd lecture1/messages
-[user@sahara ~/lecture1/messages]$ cd ~
-[user@sahara ~]$ cd messages
-bash: cd: messages: No such file or directory
+[user@sahara ~/lecture1]$
 ```
-In this example we can see that providing "lecture1" as an argument changes the working directory to "lecture1" and the same for "lecture1/messages" changing the working directory to "messages." However, when an invalid path is entered, an error is returned.  
+In this example our current working directory is home. When we call the `cd` command with `lecture1` as an argument we correctly change our working directory to `~/lecture1` without error.
 
 **`cd` with a file as an argument**  
 Output:  
@@ -25,8 +21,7 @@ Hello.class  Hello.java  messages  README
 [user@sahara ~/lecture1]$ cd Hello.java
 bash: cd: Hello.java: Not a directory
 ```
-Here we can see that using a filename as an argument for the cd command results in an error as `cd` will
-only accept directories as arguments.  
+Our current working directory for this example is `~/lecture1` and we can see that it contains some files and a folder. One of those files is `Hello.java` however, when we call `cd` with `Hello.java` as an argument we get a message informing us that `Hello.java` is not a directory. This is an error. `cd` requires a directory as it is designed to help us change our working directory.
 
 **`cd` with no arguments**  
 Output:  
@@ -34,7 +29,7 @@ Output:
 [user@sahara ~/lecture1/messages]$ cd
 [user@sahara ~]$ 
 ```
-Here we can see `cd` returning the working directory to the home directory when no arguments are provided.  
+Our working directory is `~/lecture1/messages`. When we call `cd` with no arguments it returns us to the home directory. This is not an error at all as it is the expected behavior based on the documentation for `cd`.
 
 Second Command: `ls`  
 We will again run the `ls` command three times. One time with a directory as an argument, one time with a filename as an argument, and one time with no arguments.
@@ -44,10 +39,8 @@ Output:
 ```
 [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  messages  README
-[user@sahara ~]$ ls messages
-ls: cannot access 'messages': No such file or directory
 ```
-Here we an see `ls` listing the contents of directories as long as their path is valid and presenting an error when the command cannot find the directory.  
+Our current working directory is `HOME`. When we use the `ls` command with a directory as an argument it lists the contents of the directory provided in the arguments. In `~/lecture1` we can see some files and another directory. This is not an error.
 
 **`ls` with a filename as an argument**  
 Output:  
@@ -55,7 +48,7 @@ Output:
 [user@sahara ~/lecture1]$ ls Hello.java
 Hello.java
 ```
-Here we can see that when we give `ls` a valid filename as an argument the command will return the name of the file.  
+The current working directory is `~/lecture1` Here we can see that when we give `ls` a valid filename as an argument the command will return the name of the file. This is not an error as the exit code given when we run this specific command is 0, indicating successful execution. 
 
 **`ls` with no arguments**  
 Output:  
@@ -63,7 +56,7 @@ Output:
 [user@sahara ~/lecture1]$ ls
 Hello.class  Hello.java  messages  README
 ```
-Here we can see that without arguments `ls` will print the contents of the present working directory.  
+The present working directory is `~/lecture1`. Here we can see that without arguments `ls` will print the contents of the present working directory. This is not an error and is actually the most common use of the command.
 
 Third command: `cat`  
 We will run the `cat` command three times. One with a directory as an argument, one with a filename as an argument, and one with no arguments.  
@@ -74,7 +67,7 @@ Output:
 [user@sahara ~/lecture1]$ cat messages
 cat: messages: Is a directory
 ```
-Here we can see that `cat` informs us that our target is a directory. It appears that this is not an error, but rather the command simply informs us what our target is, as a directory it has no text to print to the console. 
+Our current working directory is `~/lecture1`. Calling `cat` with a directory as an argument returns an error, which we can know because the exit code is 1. `cat` does not have functionality revolving around printing directories.
 
 **`cat` with a filename as an argument**  
 Output:  
@@ -92,7 +85,7 @@ public class Hello {
   }
 }[user@sahara ~/lecture1]$ 
 ```
-Here we can see that with a filename as an argument `cat` will print the contents of the file to the console.  
+Our current working directory is `~/lecture1`. Here we can see that with a filename as an argument `cat` will print the contents of the file to the console. This is not an error.
 
 **`cat` with no arguments**  
 Output:  
@@ -107,4 +100,4 @@ hello cat
 ^C
 [user@sahara ~/lecture1]$ ^C
 ```
-Here we can see that if `cat` is provided no arguments it effectively functions like an `echo` command, reprinting whatever is entered into the command line.  
+Our current working directory is `~/lecture1`. Here we can see that if `cat` is provided no arguments it effectively functions like an `echo` command, reprinting whatever is entered into the command line. Examing the documentation for `cat` informs us that with no arguments `cat` will print the contents of `stdin`. This is not an error.
