@@ -63,5 +63,5 @@ Here we can see the path to the private key stored on my local machine.
 Here we can see the path to the public key stored on my account on `ieng6` as well as me logging into my account on `ieng6` without being prompted for a password.  
 
 **Part 3**  
-
+Labs 2 and 3 have offered fascinating insight for me into 
 
