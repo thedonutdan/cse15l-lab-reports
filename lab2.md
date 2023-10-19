@@ -44,6 +44,6 @@ class StringServer {
 ```
 
 Here is the server output in the browser:  
-![image1](https://thedonutdan.github.io/2023-10-19.png)  
-![image2](https://thedonutdan.github.io/2023-10-19 (1).png)  
+![image1](https://thedonutdan.github.io/cse-15l-labreports/2023-10-19.png)  
+![image2](https://thedonutdan.github.io/cse-15l-labreports/2023-10-19 (1).png)  
 
