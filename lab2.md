@@ -1,6 +1,6 @@
 # Lab 2 Report  
 
-**Part 1**
+**Part 1**  
 In this lab we will first build a string server which supports the path `/add-message` and concatenates the desired message to a string which will be printed line by line in the browser window. The java code for this server is listed below:  
 
 ```
