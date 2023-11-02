@@ -1,2 +1,2 @@
-# Lab Report 3  
-Daniel Andrews
+# Lab 3 - Bugs and Commands
+**Daniel Andrews**
