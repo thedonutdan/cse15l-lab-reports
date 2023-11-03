@@ -21,4 +21,13 @@ Example of non failure-inducing input for the buggy program:
   }
 ```
 The result of running the tests showing what symptoms we can see:  
+![image1](https://thedonutdan.github.io/cse15l-lab-reports/testresultslab3.png)  
+Identifying the bug:  
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
 
