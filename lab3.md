@@ -44,4 +44,8 @@ Fixing the bug:
 Here we have added two lines to the method. The first line creates a temporary variable in which we can store the ith value in the array. Then we can replace the ith element with the element opposite and equidistant from the middle index of the array. Because we have preserved the ith value in the temp variable we can then overwrite the higher indexed value properly. We also have changed the loop to iterate only over the first half of the array as we will swap each element in the first and second half of the array. Note that iterating over the full array would result in the array being reversed twice, returning the original array and causing another bug.  
 
 **Part 2 - Researching Commands**  
+For this section of the lab I will be researching the `grep` command using `man grep` and I will show four options that can be used with `grep`. The working directory we will be using is   
+`-i`  
+```
 
+```
