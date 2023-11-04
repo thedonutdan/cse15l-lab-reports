@@ -59,7 +59,7 @@ Since the server is already running in this screenshot the only relevant class a
 
 **Part 2**
 In this part of the lab we will be showing that I can find the private `ssh` key for my login into `ieng6` on my own machine as well as the public `ssh` key for my login into `ieng6` on `ieng6`. We will also show proof that it functions as expected when I log into `ieng6`.  
-![image3](https://thedonutdan.github.io/cse15l-lab-reports/rsapriv.png)  
+![image3](https://thedonutdan.github.io/cse15l-lab-reports/rsa.png)  
 Here we can see the path to the private key stored on my local machine.     
 ![image4](https://thedonutdan.github.io/cse15l-lab-reports/rsapub.png)  
 Here we can see the path to the public key stored on my account on `ieng6` as well as me logging into my account on `ieng6` without being prompted for a password.  
