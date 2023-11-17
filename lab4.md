@@ -12,6 +12,8 @@ Here we run the command `bash test.sh` to compile the .java files and run the te
 Here we run the command `vim ListExamples.java` to open ListExamples.java in VIM in order to make the required edits. I pressed `<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<e>``<r>``<2>``<shift`+`<:>``<w>``<q>``<enter>`:
 ![image 3](https://thedonutdan.github.io/cse15l-lab-reports/step7.png)
 
-
 I then pressed `<up>``<up>``<up>``<enter>` to run the tests again:
 ![image 4](https://thedonutdan.github.io/cse15l-lab-reports/step8.png)
+
+Then I entered the commands `git add .``<enter>`, `git commit``<enter>`, `git push``<enter>`:
+![image 5](https://thedonutdan.github.io/cse15l-lab-reports/step9.png)
