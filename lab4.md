@@ -9,4 +9,9 @@ Here we can see that I logged into `ieng6` and cloned the correct repository:
 Here we run the command `bash test.sh` to compile the .java files and run the tests:
 ![image 1](https://thedonutdan.github.io/cse15l-lab-reports/step6.png)
 
-Here we run the command `vim ListExamples.java` to open ListExamples.java in VIM in order to make the required edits. I pressed `<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<e>``<r>``<2>``<shift`+`<:>``<w>``<q>``<enter>`
+Here we run the command `vim ListExamples.java` to open ListExamples.java in VIM in order to make the required edits. I pressed `<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<down>``<e>``<r>``<2>``<shift`+`<:>``<w>``<q>``<enter>`:
+![image 3](https://thedonutdan.github.io/cse15l-lab-reports/step7.png)
+
+
+I then pressed `<up>``<up>``<up>``<enter>` to run the tests again:
+![image 4](https://thedonutdan.github.io/cse15l-lab-reports/step8.png)
