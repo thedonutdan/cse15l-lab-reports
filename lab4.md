@@ -26,4 +26,4 @@ Keystrokes: `<up>``<up>``<up>``<enter>`
 
 Step 6: Commit and push
 Keystrokes: `g``i``t``<space>``a``d``d````.``<enter>``g``i``t``<space>``c``o``m``m``i``t``<enter>``g``i``t``<space``p``u``s``h``<enter>`
-![image 5](https://thedonutdan.github.io/cse15l-lab-reports/2023-11-30(2).png)
+![image 5](https://thedonutdan.github.io/cse15l-lab-reports/2023-11-30 (2).png)
