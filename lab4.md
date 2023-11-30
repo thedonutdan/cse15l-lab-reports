@@ -25,5 +25,5 @@ Keystrokes: `<up>` `<up>` `<up>` `<enter>`
 ![image 4](https://thedonutdan.github.io/cse15l-lab-reports/step8.png)
 
 Step 6: Commit and push
-Keystrokes: `g` `i` `t` `<space>` `a` `d` `d` `<space` `.` `<enter>` `g` `i` `t` `<space>` `c` `o` `m` `m` `i` `t` `<enter>` `g` `i` `t` `<space>` `p` `u` `s` `h` `<enter>`
+Keystrokes: `g` `i` `t` `<space>` `a` `d` `d` `<space>` `.` `<enter>` `g` `i` `t` `<space>` `c` `o` `m` `m` `i` `t` `<enter>` `g` `i` `t` `<space>` `p` `u` `s` `h` `<enter>`
 ![image 5](https://thedonutdan.github.io/cse15l-lab-reports/2023-11-30 (2).png)
