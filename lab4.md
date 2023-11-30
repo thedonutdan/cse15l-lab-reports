@@ -8,7 +8,7 @@ Keystrokes: `s` `s` `h` `<space>` `c` `s` `1` `5` `l` `f` `a` `2` `3` `q` `u` `@
 ![image 1](https://thedonutdan.github.io/cse15l-lab-reports/2023-11-30.png)
 
 Step 2: Clone the repository.  
-Keystrokes: `g` `i` `t` `<space>` `c` `l` `o` `n` `e` `<space>` `g` `i` `t` `@` `g` `i` `t` `h` `u` `b` `.` `c` `o` `m` `:` `t` `h` `e` `d` `o` `n` `u` `t` `d` `a` `n` `/` `l` `a` `b` `7` `.` `g` `i` `t`
+Keystrokes: `g` `i` `t` `<space>` `c` `l` `o` `n` `e` `<space>` `g` `i` `t` `@` `g` `i` `t` `h` `u` `b` `.` `c` `o` `m` `:` `t` `h` `e` `d` `o` `n` `u` `t` `d` `a` `n` `/` `l` `a` `b` `7` `.` `g` `i` `t`  
 ![image 1](https://thedonutdan.github.io/cse15l-lab-reports/sshandclone.png)
 
 Step 3: Run tests  
