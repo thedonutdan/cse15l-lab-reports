@@ -17,7 +17,7 @@ Keystrokes: `b` `a` `s` `h` `<space>` `t` `e` `s` `t` `.` `s` `h`
 
 Step 4: Fix bugs  
 Keystrokes: `v` `i` `m` `<space>` `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` `s` `.` `j` `a` `v` `a`  
-`<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<e>` `<r>` `<2>` `<shift` + `<:>` `<w>` `<q>` `<enter>`
+`<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<e>` `<r>` `<2>` `<shift` + `<:>` `<w>` `<q>` `<enter>`  
 ![image 3](https://thedonutdan.github.io/cse15l-lab-reports/step7.png)
 
 Step 5: Rerun tests
