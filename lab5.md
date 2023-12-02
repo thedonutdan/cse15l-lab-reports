@@ -4,7 +4,7 @@
 **Part 1 - Debugging Scenario**  
 **Student:**  
 Hello, I've cloned the ArrayExamples repo from Lab 3 from the CSE15L github page and I'm trying to run some tests on it using a bash script. The problem is that I keep getting an issue with the reverseInPlace test. I looked at the funciton and it looks alright, it should be taking the elements at the start and putting them at the end, and vice versa, but I can't seem to get it to run! Help would be appreciated!  
-![Image 1] ()  
+![Image 1] (https://thedonutdan.github.io/cse15l-lab-reports/symptom.png)  
 Here is a screenshot of the results from running the tests.  
 
 **TA:**  
@@ -12,7 +12,7 @@ Hello! You should open the .java file and look closely at the function. Think ab
 
 **Student:**  
 I looked again at the function, and noticed that it never saves any of the elements that are being replaced, so it ends up switching elements back around again! I made some edits and this is how the .java file looks now!  
-![Image 2] ()  
+![Image 2] (https://thedonutdan.github.io/cse15l-lab-reports/afterfix.png)  
 The tests pass! Thanks for the help!  
 
 **Setup**  
@@ -28,13 +28,13 @@ Files and directories:
 
 File contents before the bug fix:  
 ArrayExamples.java  
-![Image 3] ()  
+![Image 3] (https://thedonutdan.github.io/cse15l-lab-reports/beforefix.png)  
 
 ArrayTests.java  
-![Image 4] ()  
+![Image 4] (https://thedonutdan.github.io/cse15l-lab-reports/arraytests.png)  
 
 test.sh  
-![Image 5] ()  
+![Image 5] (https://thedonutdan.github.io/cse15l-lab-reports/bash.png)  
 
 **Part 2 - Reflection**  
 
